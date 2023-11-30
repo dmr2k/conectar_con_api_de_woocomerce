@@ -9,7 +9,7 @@ Contiene dos métodos principales:
 -> obtenerProductosPorCategoria: Obtiene los productos de una categoría específica. Utiliza un ID de categoría y un número de página como parámetros. 
 Realiza una solicitud GET a la API de Woocommerce, procesa la respuesta JSON y devuelve una lista de productos.
 
-->obtenerCategorias: Obtiene todas las categorías disponibles. Realiza una solicitud GET a la API y devuelve una lista de categorías.
+-> obtenerCategorias: Obtiene todas las categorías disponibles. Realiza una solicitud GET a la API y devuelve una lista de categorías.
 Maneja errores en las respuestas de la API lanzando excepciones si el código de estado no es 200.
 
 Clase Producto:
